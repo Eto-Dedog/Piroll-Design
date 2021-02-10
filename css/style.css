@@ -30,6 +30,9 @@ a{
     margin: auto;
 }
 /* Голова */
+.header-nav-link:hover{
+    color: #10C9C3;
+}
 .header{
     background-color: #e9e9e9;
 }
@@ -79,7 +82,7 @@ a{
 .button-primary{
     color: #fff;
     background-color: #10c9c3;
-    max-width: 180px;
+    width: 180px;
     text-align: center;
     padding-top: 18px;
     padding-bottom: 18px;
@@ -100,7 +103,7 @@ a{
     display: flex;
 }
 .skills-img{
-    background-color: #fff;
+    background-color: #E6E6E6;
 }
 .skills-box{
     padding-top: 165px;
@@ -165,7 +168,7 @@ a{
 }
 /* gallery */
 .gallery{
-    background-color: #838383;
+    background-color: #fff;
 }
 .gallery-block{
     display: flex;
@@ -243,8 +246,13 @@ a{
     flex-direction: column;
     flex-basis: 25%;
     text-align: center;
+    align-items: center;
     padding-right: 70px;
     padding-bottom: 40px;
+}
+.ability-img{
+    width: 40px;
+    height: 40px;
 }
 .ability-title{
     padding-top: 30px;
@@ -320,9 +328,6 @@ input[type=radio] {
 	width: inherit;
 }
 
-.slide1 { background: url(../img/hero-bg-two.webp) no-repeat center / cover; }
-.slide2 { background: url(../img/hero-bg.webp) no-repeat center / cover; }
-.slide3 { background: url(../img/hero-bg-three.webp) no-repeat center / cover; }
 
 .wrapper .controls {
     position: absolute;
@@ -434,13 +439,13 @@ input[type=radio] {
     border:none;
 }
 .form-info{
-    padding-right: 70px;
+    padding-right: 170px;
     padding-top: 10px;
     padding-bottom: 10px;
     border:none;
 }
 ::placeholder{
-    padding-left: 5px;
+    padding-left: 15px;
     font-family:'NuitoSans-Regular';
     font-size: 15px;
     color: #787878;
@@ -484,11 +489,81 @@ input[type=radio] {
     font-size: 15px;
     padding-top: 5px;
 }
-
-/* animation */
-.header-nav-link:hover{
-    color: #10C9C3;
-}
 .footer-nav-link:hover{
     color: #10C9C3;
+}
+/* 2 страница */
+/* graphic */
+.graphic-block{
+    padding-top: 60px;
+    padding-bottom: 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+/* 3 страница */
+/* on-me */
+.on-me{
+    background-color: #7E7E7E;
+}
+.on-me-block{
+    padding-top: 60px;
+    padding-bottom: 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.on-me-block > .text-white {
+    color: #fff;
+}
+.on-me-block > h1 {
+    font-family:'Montserrat-Medium';
+}
+.on-me-block > p {
+    font-family:'NuitoSans-Regular';
+}
+/* 4 страница */
+.project-box{
+    display: flex;
+    flex-direction: column;
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+.slider-poject{
+    margin-bottom: 100px;
+}
+.project-info{
+    padding-top: 10px;
+    font-size: 18px;
+    color: #787878;
+}
+.project-info-title{
+    color: #000000;
+}
+.item-project-slider{
+    padding-top: 0px;
+    text-align: left;
+}
+.project-slider{
+    margin-bottom: 80px;
+    height: 690px;
+}
+/* 5 страница */
+.form-contact-box{
+    background-color: #F8F9F9;
+}
+.contacts-block{
+    align-items: center;
+    background-color: #F8F9F9;
+}
+.form-contact{
+    padding-bottom: 40px;
+}
+.map{
+    background-color: #F5F5F5;
+}
+.map-block{
+    padding-bottom: 80px;
 }
