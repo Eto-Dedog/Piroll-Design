@@ -106,6 +106,8 @@ a{
     background-color: #E6E6E6;
 }
 .skills-box{
+    display: flex;
+    flex-direction: column;
     padding-top: 165px;
     padding-bottom: 165px;
     flex-basis: 50%;
@@ -423,6 +425,7 @@ input[type=radio] {
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
+    padding-bottom: 40px;
 }
 .form-title{
     border:none;
@@ -526,8 +529,6 @@ input[type=radio] {
 }
 /* 4 страница */
 .project-box{
-    display: flex;
-    flex-direction: column;
     padding-top: 120px;
     padding-bottom: 120px;
 }
@@ -557,9 +558,6 @@ input[type=radio] {
 .contacts-block{
     align-items: center;
     background-color: #F8F9F9;
-}
-.form-contact{
-    padding-bottom: 40px;
 }
 .map{
     background-color: #F5F5F5;
